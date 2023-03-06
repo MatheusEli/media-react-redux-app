@@ -4,9 +4,9 @@ import axios from "axios";
 const URL = 'http://localhost:3005'
 
 const fetchUsers = createAsyncThunk('users/fetch', async () => {
-    const response =  await axios.get(URL+'/users');
-
+    const response = await axios.get(URL + '/users');
     return response.data;
-}); 
+});
 
-export {fetchUsers};
+
+export { fetchUsers };
