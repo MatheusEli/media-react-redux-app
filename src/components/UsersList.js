@@ -4,6 +4,7 @@ import { fetchUsers, addUser } from "../store";
 import Button from "./Button";
 import Skeleton from "./Skeleton";
 import { useThunk } from "../hooks/useThunk";
+import UsersListItem from "./UsersListItem";
 
 function UsersList() {
 
@@ -27,11 +28,7 @@ function UsersList() {
         content = <div>Error fetching data...</div>
     } else {
         content = data.map((user) => {
-            return <div key={user.id} className="mb-2 border rounded">
-                <div className="flex p-2 justify-between items-center cursor-pointer">
-                    {user.name}
-                </div>
-            </div>
+            return <UsersListItem key={user.id} user={user} />
         });
     }
 
@@ -39,17 +36,16 @@ function UsersList() {
         doCreateUser();
     };
 
-
     return (
         <div>
             <div className="flex flex-row justify-between items-center m-3">
                 <h1 className="m-2 text-xl">Users</h1>
                 <Button onClick={handleUserAdd} loading={isCreatingUser}>+ Add User</Button>
 
-
                 {
                     creatingUserError && 'Error Creating User...'
                 }
+
             </div>
             {content}</div>
     );
