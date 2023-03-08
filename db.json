@@ -1,10 +1,6 @@
 {
   "users": [
     {
-      "name": "Casey Barton",
-      "id": 32
-    },
-    {
       "name": "Cody Murphy",
       "id": 33
     },
@@ -15,10 +11,6 @@
     {
       "name": "Clayton Sporer",
       "id": 36
-    },
-    {
-      "name": "Curtis Bednar",
-      "id": 37
     },
     {
       "name": "Gerard Crona",
@@ -33,6 +25,11 @@
       "id": 41
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "title": "Hiking Trip",
+      "userId": 33
+    }
+  ],
   "photos": []
 }
