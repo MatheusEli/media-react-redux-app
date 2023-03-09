@@ -27,8 +27,39 @@
   ],
   "albums": [
     {
+      "id": 1,
       "title": "Hiking Trip",
       "userId": 33
+    },
+    {
+      "userId": 33,
+      "title": "Practical Frozen Ball",
+      "id": 2
+    },
+    {
+      "userId": 33,
+      "title": "Ergonomic Granite Bacon",
+      "id": 3
+    },
+    {
+      "userId": 33,
+      "title": "Recycled Wooden Bike",
+      "id": 4
+    },
+    {
+      "userId": 33,
+      "title": "Unbranded Soft Salad",
+      "id": 5
+    },
+    {
+      "userId": 36,
+      "title": "Elegant Frozen Ball",
+      "id": 6
+    },
+    {
+      "userId": 36,
+      "title": "Ergonomic Soft Towels",
+      "id": 7
     }
   ],
   "photos": []
