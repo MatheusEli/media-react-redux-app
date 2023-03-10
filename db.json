@@ -73,7 +73,28 @@
       "userId": 35,
       "title": "Refined Metal Shoes",
       "id": 15
+    },
+    {
+      "userId": 39,
+      "title": "Practical Plastic Keyboard",
+      "id": 16
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "id": 1,
+      "url": "",
+      "albumId": 6
+    },
+    {
+      "albumId": 6,
+      "url": "https://loremflickr.com/150/150/abstract?lock=62941",
+      "id": 2
+    },
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150/abstract?lock=84691",
+      "id": 3
+    }
+  ]
 }
