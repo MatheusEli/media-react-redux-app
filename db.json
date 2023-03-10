@@ -23,34 +23,17 @@
     {
       "name": "Holly Gibson",
       "id": 41
+    },
+    {
+      "name": "Vicki Hoeger",
+      "id": 42
+    },
+    {
+      "name": "Leona Satterfield",
+      "id": 43
     }
   ],
   "albums": [
-    {
-      "id": 1,
-      "title": "Hiking Trip",
-      "userId": 33
-    },
-    {
-      "userId": 33,
-      "title": "Practical Frozen Ball",
-      "id": 2
-    },
-    {
-      "userId": 33,
-      "title": "Ergonomic Granite Bacon",
-      "id": 3
-    },
-    {
-      "userId": 33,
-      "title": "Recycled Wooden Bike",
-      "id": 4
-    },
-    {
-      "userId": 33,
-      "title": "Unbranded Soft Salad",
-      "id": 5
-    },
     {
       "userId": 36,
       "title": "Elegant Frozen Ball",
@@ -60,6 +43,36 @@
       "userId": 36,
       "title": "Ergonomic Soft Towels",
       "id": 7
+    },
+    {
+      "userId": 43,
+      "title": "Intelligent Soft Hat",
+      "id": 9
+    },
+    {
+      "userId": 43,
+      "title": "Tasty Granite Bacon",
+      "id": 10
+    },
+    {
+      "userId": 43,
+      "title": "Elegant Cotton Table",
+      "id": 11
+    },
+    {
+      "userId": 43,
+      "title": "Awesome Rubber Bike",
+      "id": 12
+    },
+    {
+      "userId": 40,
+      "title": "Electronic Rubber Ball",
+      "id": 14
+    },
+    {
+      "userId": 35,
+      "title": "Refined Metal Shoes",
+      "id": 15
     }
   ],
   "photos": []
