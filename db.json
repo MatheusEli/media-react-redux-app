@@ -78,6 +78,16 @@
       "userId": 39,
       "title": "Practical Plastic Keyboard",
       "id": 16
+    },
+    {
+      "userId": 33,
+      "title": "Recycled Bronze Computer",
+      "id": 17
+    },
+    {
+      "userId": 33,
+      "title": "Sleek Plastic Shirt",
+      "id": 18
     }
   ],
   "photos": [
@@ -95,6 +105,26 @@
       "albumId": 16,
       "url": "https://loremflickr.com/150/150/abstract?lock=84691",
       "id": 3
+    },
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150/abstract?lock=75243",
+      "id": 7
+    },
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150/abstract?lock=75908",
+      "id": 8
+    },
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150/abstract?lock=53637",
+      "id": 9
+    },
+    {
+      "albumId": 17,
+      "url": "https://loremflickr.com/150/150/abstract?lock=25407",
+      "id": 11
     }
   ]
 }
