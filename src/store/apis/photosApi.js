@@ -29,30 +29,28 @@ const photosApi = createApi({
             }),
 
             addPhoto: builder.mutation({
-                invalidatesTags: (result, error, album) => {
-                    return [{type: 'AlbumsPhotos', id: album.id}];
-                },
-                query: (album) => {
+                invalidatesTags: (result, error, album) => [{type: 'AlbumsPhotos', id: album.id}]
+                ,
+                query: album => {
                     return {
                         url: '/photos',
                         method: 'POST',
                         body: {
                             albumId: album.id,
                             url: faker.image.abstract(150,150,true),
-                        }
-                    }
+                        };
+                    };
                 }
             }),
             
             removePhoto: builder.mutation({
-                invalidatesTags: (result, error, photo) => {
-                    return [{type: 'Photo', id: photo.id}]
-                },
-                query: (photo) => {
+                invalidatesTags: (result, error, photo) => [{type: 'Photo', id: photo.id}]
+                ,
+                query: photo => {
                     return {
                         url: `/photos/${photo.id}`,
                         method: 'DELETE'
-                    }
+                    };
                 }
             })
         }
